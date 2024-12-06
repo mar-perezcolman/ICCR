@@ -80,13 +80,13 @@ Not to be used to record an autopsy report, although tests on some specimens tha
 		["original_namespace"] = <"no.nasjonalikt">
 		["original_publisher"] = <"Nasjonal IKT">
 		["custodian_namespace"] = <"no.nasjonalikt">
-		["MD5-CAM-1.0.1"] = <"b0ec755f651208d146e695d90a86bfa4">
+		["MD5-CAM-1.0.1"] = <"6a0d698a94f4a7a63dba59be7efb9f28">
 		["build_uid"] = <"c8a22f97-a622-4f8b-aa5c-178d2bcc37bb">
 		["revision"] = <"0.0.1-alpha">
 	>
 
 definition
-	CLUSTER[at0000] occurrences matches {0..*} matches {    -- anatomical_pathology_exam-test
+	CLUSTER[at0000] occurrences matches {0..*} matches {    -- Anatomical pathology exam TEST
 		items cardinality matches {1..*; unordered} matches {
 			ELEMENT[at0018] occurrences matches {0..*} matches {    -- Specimen container ID
 				value matches {
@@ -176,7 +176,7 @@ ontology
 		["en"] = <
 			items = <
 				["at0000"] = <
-					text = <"anatomical_pathology_exam-test">
+					text = <"Anatomical pathology exam TEST">
 					description = <"Findings and interpretation of an anatomical pathology examination performed on tissues and body fluids.">
 				>
 				["at0005"] = <
@@ -253,7 +253,7 @@ ontology
 		["nb"] = <
 			items = <
 				["at0000"] = <
-					text = <"anatomical_pathology_exam-test">
+					text = <"*Anatomical pathology exam TEST (en)">
 					description = <"Funn og tolkninger av patologiundersøkelser utført på vev, celler og kroppsvæsker.">
 				>
 				["at0005"] = <
@@ -330,7 +330,7 @@ ontology
 		["de"] = <
 			items = <
 				["at0000"] = <
-					text = <"anatomical_pathology_exam-test">
+					text = <"*Anatomical pathology exam TEST (en)">
 					description = <"Befunde und Interpretationen von pathologisch-anatomischen Begutachtungen (Histopathologie) an Gewebe und Körperflüssigkeiten.">
 				>
 				["at0005"] = <
